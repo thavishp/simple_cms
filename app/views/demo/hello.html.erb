@@ -1,0 +1,25 @@
+<h1>This is the 'Hello' file!</h1>
+<p>Hello World!</p>
+
+<br/>
+<a href="/demo/index">Index Page 1 </a> <br/>
+
+<%= link_to('Index Page 2', {:action => 'index'}) %>
+
+<br/>
+
+<p>
+	ID: <%= params[:id] %>  <br/>
+</p>
+
+<p>
+	ID: <%= @id %> <br/>
+</p>
+
+<p>
+	Page: <%= @page %> <br/>
+</p>
+
+<hr/>
+
+<%= params.inspect %>
